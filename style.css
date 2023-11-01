@@ -1,0 +1,30 @@
+.btl-grid{
+    background-color: lightblue;
+    width: 1000px;
+    height: 700px;
+    border: 2px;
+    gap: 2px;
+    border-color: black;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+
+}
+
+.row{
+    display: flex;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: grey;
+    height: 3rem;
+
+}
+
+.cell{
+    
+    width: 10px;
+    height:5px
+    border: 1px solid grey;
+    box-sizing: border-box;
+    
+
+}
